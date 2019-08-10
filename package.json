@@ -1,0 +1,41 @@
+{
+  "name": "@siga/mediator",
+  "version": "1.0.7",
+  "main": "lib/mediator.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsivanantham/mediator.js.git"
+  },
+  "keywords": [
+    "cross-domain",
+    "cross-origin",
+    "communication",
+    "promise",
+    "postMessage",
+    "window",
+    "iframe"
+  ],
+  "author": "Sivanantham Gnanavel",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/iamsivanantham/mediator.js/issues"
+  },
+  "homepage": "https://github.com/iamsivanantham/mediator.js#readme",
+  "description": "",
+  "unpkg": "dist/mediator.min.js",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
